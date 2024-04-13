@@ -3,11 +3,11 @@ import React, { useState } from "react";
 const Random = () => {
   const [gif, setGif] = useState('');
   function clickHandler() {
-    
+
   }
 
   return (
-    <div>
+    <div className="w-full h-[450px] bg-green-500">
       <h1>Random Gif</h1>
       <img src={gif} width="450"/>
       <button onClick={clickHandler}>
