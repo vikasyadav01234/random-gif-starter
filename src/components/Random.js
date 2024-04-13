@@ -7,7 +7,7 @@ const Random = () => {
   }
 
   return (
-    <div className="w-1/2 h-[450px] bg-green-500">
+    <div className="w-1/2 h-[450px] bg-green-500 rounded-lg">
       <h1>Random Gif</h1>
       <img src={gif} width="450"/>
       <button onClick={clickHandler}>
