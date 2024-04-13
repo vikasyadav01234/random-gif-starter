@@ -1,5 +1,5 @@
 import Random from "./components/Random.jsx"
-import Tag from "./components/Tag"
+import Tag from "./components/Tag.jsx"
 
 export default function App() {
   return (
