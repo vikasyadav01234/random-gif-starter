@@ -8,7 +8,7 @@ export default function App() {
       <h1 className="bg-white absolute rounded-lg w-11/12 text-center mt-[40px]
         px-10 py-2 text-4xl font-bold">
       Random Gifs</h1>
-      <div className="flex flex-col">
+      <div className="flex flex-col w-full">
         <Random/>
         <Tag/>
       </div>
