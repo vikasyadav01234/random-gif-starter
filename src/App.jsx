@@ -1,4 +1,4 @@
-import Random from "./components/Random"
+import Random from "./components/Random.jsx"
 import Tag from "./components/Tag"
 
 export default function App() {
