@@ -1,3 +1,7 @@
 export default function App() {
-  return <div>Random GIF</div>;
+  return (
+    <div>
+      <h1>Random Gifs</h1>
+    </div>
+  )
 }
