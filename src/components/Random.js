@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Random = () => {
-  const [gif, setGif] = useState()
+  const [gif, setGif] = useState('')
 
   return (
     <div>
@@ -10,3 +10,4 @@ const Random = () => {
     </div>
   )
 }
+export default Random
