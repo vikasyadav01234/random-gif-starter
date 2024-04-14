@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 
+
 const Random = () => {
   const [gif, setGif] = useState('');
+
+  const url = `https://api.giphy.com/v1/gifs/random?api_key=${API_KEY}`;
   function clickHandler() {
 
   }
