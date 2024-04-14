@@ -5,6 +5,7 @@ import Spinner from "./Spinner";
 
 const API_KEY = process.env.REACT_APP_GIPHY_API_KEY
 const Random = () => {
+  setloading(true)
   const [gif, setGif] = useState('');
   const [loading, setloading] = useState('false')
   async function fetchData(){
@@ -29,7 +30,7 @@ const Random = () => {
       <h1 className="mt-[15px] text-xl underline uppercase font-bold">A Random Gif</h1>
 
       {
-        loading ? (<Spinner/>):()
+        loading ? (<Spinner/>):(<img src={gif} width="450"/>)
       }
       
       <button onClick={clickHandler}
