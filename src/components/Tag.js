@@ -5,9 +5,9 @@ import Spinner from "./Spinner";
 
 const API_KEY = process.env.REACT_APP_GIPHY_API_KEY
 const Tag = () => {
-  const [tag, setTag] = useState('')  
+  const [tag, setTag] = useState('');
   const [gif, setGif] = useState('');
-  const [loading, setloading] = useState('false')
+  const [loading, setloading] = useState('false');
   async function fetchData(){
 
     setloading(true);
