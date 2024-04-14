@@ -9,7 +9,8 @@ const Random = () => {
     const url = `https://api.giphy.com/v1/gifs/random?api_key=${API_KEY}`;
     const {data} = await axios.get(url);
     const imageSource = data.data.images.dawnsized-localStorage.url;
-    console.log(imageSource)
+    
+    console.log(imageSource);
   }
 
   useEffect( () => {
