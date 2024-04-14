@@ -8,6 +8,7 @@ const Random = () => {
   async function fetchData(){
     const url = `https://api.giphy.com/v1/gifs/random?api_key=${API_KEY}`;
     const output = await axios.get(url);
+    console.log(output);
   }
   function clickHandler() {
 
