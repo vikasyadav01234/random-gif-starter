@@ -13,6 +13,8 @@ const Random = () => {
     const imageSource = data.data.images.downsized_large.url;
     console.log(data)
     console.log(imageSource);
+
+    setGif(imageSource)
   }
 
   useEffect( () => {
