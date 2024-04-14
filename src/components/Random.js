@@ -1,10 +1,14 @@
+import axios from "axios";
 import React, { useState } from "react";
 
 const API_KEY = process.env.REACT_APP_GIPHY_API_KEY
 const Random = () => {
   const [gif, setGif] = useState('');
 
-  const url = `https://api.giphy.com/v1/gifs/random?api_key=${API_KEY}`;
+  async function fetchData(){
+    const url = `https://api.giphy.com/v1/gifs/random?api_key=${API_KEY}`;
+    await axios.get(url);
+  }
   function clickHandler() {
 
   }
