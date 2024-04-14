@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-
+const API_KEY = process.env.REACT_APP_GIPHY_API_KEY
 const Random = () => {
   const [gif, setGif] = useState('');
 
