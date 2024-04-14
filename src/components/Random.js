@@ -33,7 +33,7 @@ const Random = () => {
       <h1 className="mt-[15px] text-xl underline uppercase font-bold">A Random Gif</h1>
 
       {
-        loading ? (<Spinner/>):(<img src={gif} width="450" height={450}/>)
+        loading ? (<Spinner/>):(<img src={gif} width="450"/>)
       }
       
       <button onClick={clickHandler}
