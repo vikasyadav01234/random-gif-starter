@@ -11,7 +11,7 @@ const Random = () => {
     const {data} = await axios.get(url);
 
     const imageSource = data.data.images.downsized_large.url;
-    console.log(data)
+   
     console.log(imageSource);
     setGif(imageSource);
   }
