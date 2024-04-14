@@ -1,5 +1,5 @@
 import axios from "axios";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const API_KEY = process.env.REACT_APP_GIPHY_API_KEY
 const Random = () => {
@@ -10,6 +10,10 @@ const Random = () => {
     const output = await axios.get(url);
     console.log(output);
   }
+
+  useEffect( () => {
+    fetchData();
+  } )
   function clickHandler() {
 
   }
