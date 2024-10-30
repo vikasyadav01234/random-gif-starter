@@ -1,13 +1,26 @@
-# Random Gifs Project
+# Random GIF Starter
 
-This is a simple project to practice using the random module in Python. The project is a simple command
-line interface that allows the user to select a category of gifs and then displays a random gif from
+Welcome to the Random GIF Starter project! This project is designed to fetch and display random GIFs using the Giphy API. It's a fun way to explore and share GIFs with friends.
 
-#setup
+## Features
 
+- Fetches random GIFs from the Giphy API
+- Displays GIFs in a user-friendly interface
+- Easy to set up and use
 
-$npm install
+## Installation
 
-$npm run start
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/vikasyadav01234/random-gif-starte.git
+2. Navigate to the project directory:
+   ```bash
+   cd random-gif-starter
+3. Install the required dependencies:
+   ```bash
+   npm install
+###Usage
+1. Start the application:
+   ```bash
+   npm start
 
-FUN AND SHERE
